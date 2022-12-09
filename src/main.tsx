@@ -1,14 +1,19 @@
-import React from "react";
-import ReactDOM from "react-dom/client";
+import { createRoot } from "react-dom/client";
+import { StrictMode } from "react";
 import { ApiProvider } from "@reduxjs/toolkit/query/react";
-import App from "./App";
-import api from "./api";
+import { RouterProvider } from "react-router-dom";
+import api from "@/api";
+import routes from "@/routes/index";
 import "./index.css";
 
-ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
-	<React.StrictMode>
+const root = document.getElementById("root");
+
+if (!root) throw new Error("Root Element is missing");
+
+createRoot(root).render(
+	<StrictMode>
 		<ApiProvider api={api}>
-			<App />
+			<RouterProvider router={routes} />
 		</ApiProvider>
-	</React.StrictMode>,
+	</StrictMode>,
 );

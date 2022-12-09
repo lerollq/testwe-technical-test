@@ -1,5 +1,6 @@
-import { PaginatedResponse, PaginationParams, Book } from "types";
-import { extractHeaderPagination, queryBuilder } from "utils";
+import { extractHeaderPagination, queryBuilder } from "@/utils";
+import { PaginatedResponse, PaginationParams, Book } from "@/types";
+
 import baseApi from "./base.api";
 
 const booksApi = baseApi.injectEndpoints({
