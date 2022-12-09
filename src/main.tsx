@@ -1,8 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import { ApiProvider } from "@reduxjs/toolkit/query/react";
-import App from "./App";
-import api from "./api";
+import routes from "@/routes/index";
 import "./index.css";
 
 ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(

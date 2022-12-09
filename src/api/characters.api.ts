@@ -1,5 +1,5 @@
-import { PaginatedResponse, PaginationParams, Character } from "types";
-import { extractHeaderPagination, queryBuilder } from "utils";
+import { PaginatedResponse, PaginationParams, Character } from "@/types";
+import { extractHeaderPagination, queryBuilder } from "@/utils";
 import baseApi from "./base.api";
 
 const charactersApi = baseApi.injectEndpoints({
