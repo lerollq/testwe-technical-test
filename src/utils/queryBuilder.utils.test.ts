@@ -6,7 +6,7 @@ describe("utils / queryBuilder", () => {
 		expect(queryBuilder("/books", undefined)).toEqual("/books");
 	});
 
-	it("should return only path concatened with query params", () => {
+	it("should return path concatenated with query params", () => {
 		const params = {
 			page: "12",
 			pageSize: "10",
