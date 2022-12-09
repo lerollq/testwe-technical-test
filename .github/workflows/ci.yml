@@ -40,3 +40,6 @@ jobs:
 
       - name: Rome (Linter and Formatter)
         run: pnpm rome ci .
+
+      - name: Type Checking
+        run: pnpm tsc
