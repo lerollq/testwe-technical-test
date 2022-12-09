@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "preview": "vite preview"
+    "format": "rome format . --write",
+    "lint": "rome check . --apply-suggested"
   },
   "dependencies": {
     "react": "^18.2.0",
