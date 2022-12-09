@@ -28,6 +28,6 @@
     "vite": "^4.0.0"
   },
   "lint-staged": {
-    "*": "rome ci ."
+    "*.{js,jsx,ts,tsx}": "rome ci"
   }
 }
