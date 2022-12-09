@@ -43,3 +43,6 @@ jobs:
 
       - name: Type Checking
         run: pnpm tsc
+
+      - name: Unit Tests
+        run: pnpm test
