@@ -1,0 +1,23 @@
+{
+  "linter": {
+    "enabled": true,
+    "rules": {
+      "recommended": true
+    },
+    "ignore": [
+      "node_modules",
+      "public",
+      "dist"
+    ]
+  },
+  "formatter": {
+    "enabled": true,
+    "indentSize": 2,
+    "lineWidth": 120,
+    "ignore": [
+      "node_modules",
+      "public",
+      "dist"
+    ]
+  }
+}
