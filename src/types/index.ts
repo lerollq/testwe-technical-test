@@ -3,3 +3,4 @@ export * from "./Character.types";
 export * from "./Pagination.types";
 export * from "./PaginatedResponse.types";
 export * from "./PaginationParams.types";
+export * from "./WithId.types";
