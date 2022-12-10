@@ -1,0 +1,21 @@
+.cover-img {
+  display: block;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  aspect-ratio: 0.7 / 1;
+  background: white;
+}
+
+.cover-img.cover-img--s {
+  width: 40px;
+}
+
+.cover-img.cover-img--m {
+  width: 100px;
+}
+
+.cover-img.cover-img--l {
+  width: 200px;
+}
