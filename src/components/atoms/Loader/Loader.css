@@ -1,0 +1,34 @@
+.loader {
+  position: relative;
+}
+
+.loader__spinner {
+  font-size: 1em;
+  height: 4em;
+  fill: white;
+  position: absolute;
+}
+
+.loader .spinner {
+  position: absolute;
+  font-size: inherit;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0);
+  opacity: 0.7;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.loader .spinner .spinner__icon {
+  height: 3em;
+  fill: white;
+  animation: spin 1s linear forwards infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(359deg);
+  }
+}
