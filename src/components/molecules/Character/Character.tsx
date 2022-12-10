@@ -1,8 +1,6 @@
 import { charactersApi } from "@/api";
 import { JsonPreviewer, Loader } from "@/components/atoms";
 
-import "./Character.css";
-
 const { useGetCharacterQuery } = charactersApi;
 
 interface CharacterProps {
