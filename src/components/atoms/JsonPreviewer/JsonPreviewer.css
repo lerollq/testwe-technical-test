@@ -1,0 +1,12 @@
+.json-previewer {
+  margin: 0;
+  box-sizing: border-box;
+  background: #464040;
+  color: white;
+  padding: 1rem;
+  border-radius: 6px;
+  border: 1px dashed #FFF;
+  height: 100%;
+  overflow: auto;
+  resize: vertical;
+}
