@@ -1,12 +1,13 @@
 import { Outlet } from "react-router-dom";
+import { BookList } from "@/components/organisms";
 
-function Root() {
+function Books() {
 	return (
 		<div>
-			root
+			<BookList />
 			<Outlet />
 		</div>
 	);
 }
 
-export default Root;
+export default Books;
