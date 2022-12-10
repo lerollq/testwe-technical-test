@@ -1,11 +1,9 @@
 import { RouteObject } from "react-router-dom";
 import Book from "./Book";
-import Root from "./Root";
 
 const route: RouteObject = {
-	path: "/",
-	element: <Root />,
-	children: [Book],
+	path: ":id",
+	element: <Book />,
 };
 
 export default route;

@@ -1,4 +1,8 @@
 .space {
-  display: inline-flex;
+  display: flex;
   gap: 10px;
+}
+
+.space--vertical {
+  flex-direction: column;
 }

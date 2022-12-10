@@ -11,7 +11,7 @@ const charactersApi = baseApi.injectEndpoints({
 				pagination: extractHeaderPagination(meta?.response?.headers),
 			}),
 		}),
-		getCharacter: builder.query<Character, number>({
+		getCharacter: builder.query<Character, string>({
 			query: (id) => `/characters/${id}`,
 		}),
 	}),
